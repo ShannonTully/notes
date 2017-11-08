@@ -87,7 +87,7 @@ p{ //selector element (can also be selector id or class)
 	background: orange;
 }
 
-Can you console.log these values in css? answer no its a javascript console
+Can you console.log these values in css answer no its a javascript console
 
 <p class="active"></p>     
 <div class="active"></div> (class can be used multiple times)
@@ -116,7 +116,7 @@ JAVASCRIPT STUFF
 
 strings, integers, float, array, object, null, boolean, etc... = basic data types (primitive)
 always use ' for javascript and " for html
-'use strict'; at the begining of EVERY javascript (why???)
+'use strict';
 || = or
 && = and
 parseInt = string to int
@@ -159,12 +159,18 @@ nov, 8
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 ctrl-shift-p = key commands on atom
+replace all below???
+copy line down???
 
 git branches
+
+never work on master
 
 git pull origin master = merge master into your branch
 git branch 'name of branch' = creates a new branch
 git checkout 'name of branch' = move to branch (shows branch on bottom right of atom)
 git branch = shows branches/which one you are in
+git push origin 'name of branch' = USE ALWAYS
 
 linter = spellchecks for syntax (not spelling or anything)
+
