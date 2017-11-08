@@ -1,0 +1,170 @@
+nov, 6
+
+what am i doing that i should keep doing
+what am i not doing that i should be doing
+what am i doing that i shouldnt be doing
+
+bash ubuntu windows 10 (google search) (windows store?)
+creates a linux enviroment in windows 10
+
+helpful stuff
+
+MDN = use at the start of a google search to find definitions of code
+StackOverflow
+ctrl shift q = open in browser in atom
+
+gitbash stuff
+
+cd = go to (leave blank for home)
+pwd = where am i
+ls = what is here
+mkdir = make folder (does not put you inside dir(ectory))
+touch = make file
+mv = move file (rename with $mv originalName.fileType newName.fileType)
+cp = copy
+rm = remove (rm -rf superwipe item)
+--help = help
+
+Html stuff
+
+<!DOCTYPE html> = needed
+<html>
+	<head>
+		<style>
+		</style> //where style goes (CSS)
+	</head> //data about page
+	<body>
+		<h1></h1> //header (1 2 3 4...)
+	</body> //ui
+	<script>
+		console.log('string'<*"titles" the data/*>, var); //shows file and location
+		if() {
+			alert('string'); //annoying alert box on top of page
+		} elseif() {
+			prompt('string'); //alert with user input
+		} else() {
+		}
+	</script> //javascript stuff
+</html>
+
+== checks values
+=== checks data type and value
+
+nov, 7
+
+github day
+
+more html stuff
+
+ul = unordered list
+ol = ordered list
+li = list item
+
+HTML = Hypertext Markup Language (markup)
+CSS = Cascading Style Sheets
+
+sets of tags called element (<p>text</p> (one element))
+self closing tag = <input type='text'> (<img src="img.jpg">) (type='text' = attribute) (type = key) ('text' = value) (key/value always preassigned attribute)
+
+seperation of concerns = ALL VISUAL CHANGES NEED TO BE IN CSS THAT INCLUDES <b> <i> <br> <hr> ect. dont fucking use them
+
+<a></a> = anchor tag ???
+<header>, <sections>, <aside>, <article>, <footer>, <main>, <date>, <nav> (ect... (look up more)) = all <div> tags. to be used instead of div whenever possible
+
+linking css to html
+<link rel="stylesheet" href="style.css"> (goes in head)
+linking js to html
+<script src="app.js"></script> (goes at very end)
+
+img placeholders "http://placehold.it/300x300" use this website (any sizes)
+
+CSS STUFF
+
+.css files
+
+p{ //selector element (can also be selector id or class)
+	color: #44444;
+	background: orange;
+}
+
+Can you console.log these values in css? answer no its a javascript console
+
+<p class="active"></p>     
+<div class="active"></div> (class can be used multiple times)
+
+<p id="active"></p> (id is one time use)
+
+.active{ //.something = class
+	border: solid 2 px green;
+}
+
+display types
+
+block
+
+<p></p> (is block)
+extends horisontaly until end of container
+width just make a new box in the block
+
+inline
+
+<span>text</span>
+<a href="#">text</a>
+these things end when it reaches the end of the thing 
+
+JAVASCRIPT STUFF
+
+strings, integers, float, array, object, null, boolean, etc... = basic data types (primitive)
+always use ' for javascript and " for html
+'use strict'; at the begining of EVERY javascript (why???)
+|| = or
+&& = and
+parseInt = string to int
+toLowerCase/toUpperCase
+
+ARRAY STUFF
+
+array[0][0] = array inception
+array.length
+array.push(thing) = adds to end of array
+array.pop() = takes off last item on array
+
+repl = read evalue print loop (console on chrome is an example)
+
+GIT STUFF
+
+vcs = version control system (git)
+
+git status =
+git add = add file to git and ready it to save
+git commit -m "message" = give it a message before its locked in
+git push origin master = posts to github
+
+acp = add commit push
+
+STEPS
+
+1 github
+2 make new repository (project) (repo)
+3 copy url
+4 make project location on computer
+5 git clone url
+6 make files and start coding
+
+nov, 8
+
+. = is class
+# = is id
+
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+
+ctrl-shift-p = key commands on atom
+
+git branches
+
+git pull origin master = merge master into your branch
+git branch 'name of branch' = creates a new branch
+git checkout 'name of branch' = move to branch (shows branch on bottom right of atom)
+git branch = shows branches/which one you are in
+
+linter = spellchecks for syntax (not spelling or anything)
