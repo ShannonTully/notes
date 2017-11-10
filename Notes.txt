@@ -174,3 +174,15 @@ git push origin 'name of branch' = USE ALWAYS
 
 linter = spellchecks for syntax (not spelling or anything)
 
+nov, 9
+
+git branch -d 'branch' = delete branch
+git branch -b 'branch' = make and move to branch
+
+ctrl d = select next
+
+make it work, make it pretty, make it fast
+
+css stuff
+
+position: absolute(reletive to reletive), reletive(reletive to this), fixed(reletive to screen), static(default)
