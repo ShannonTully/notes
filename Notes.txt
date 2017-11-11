@@ -186,3 +186,7 @@ make it work, make it pretty, make it fast
 css stuff
 
 position: absolute(reletive to reletive), reletive(reletive to this), fixed(reletive to screen), static(default)
+
+nov, 10
+
+easy day. conseptual learning
