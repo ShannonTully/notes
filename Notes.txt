@@ -190,3 +190,27 @@ position: absolute(reletive to reletive), reletive(reletive to this), fixed(rele
 nov, 10
 
 easy day. conseptual learning
+
+nov, 13
+
+building DOMs
+
+javascript objects
+
+var emptyObject = {}; //empty object
+
+var person = {
+	details {
+		age: 34,
+	},
+	name: 'scott',
+	childeren: ['bill', 'phil', 'suzy'],
+	sayHello: function() {
+		console.log('Hello, my age is ' + this.details.age);
+	},
+};
+
+person.details.age //34
+person.sayHello() //Hello, my age is 34
+
+
