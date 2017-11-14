@@ -213,4 +213,87 @@ var person = {
 person.details.age //34
 person.sayHello() //Hello, my age is 34
 
+nov, 14
 
+constructors
+
+constructors have a capital letter
+
+function Store(name, avg) {
+	this.name = name;
+	this.avg = avg;
+	console.log(this);
+}
+
+var x = Store('ST', 35); //this is window
+var x = new Store('ST', 35); //this is in new object called Store under var x
+var y = new Store('Alki', 35); //under var y
+
+var people = [];
+
+function Person(name, age) {
+	this.name = name;
+	this.age = age;
+	this.speak = function () { //dont put methods in constructors like this
+		console.log('hello my name is ', this.name);
+	};
+}
+
+Person.prototype.sayAge = function() { //prototype will affect any object we create without being in the constructor
+	console.log('instance this', this);
+	return 'I am ' + this.age + '.';
+}
+
+people.sayAge(); //how to call ^^^
+
+Person.sayAge = function() { //outputs code not value dont use
+	console.log('constructor this', this);
+}
+
+
+for(var i = 0; i < 5; i++) {
+	var person = new Person(i + ' name', i + 25);
+	console.log(person);
+	people.push(person);
+}
+
+better way
+
+var hats = [];
+
+function Hat(style, color) {
+	this.style = style;
+	this.color = color;
+	hats.push(this);
+}
+
+new Hat('baseball', blue);
+
+YOU CAN DO ANYTHING
+
+tables
+
+<thead> <tbody> <tr> <td> <tfoot>
+
+//create a tbody witha class of tbl-class and attatch it to the table
+var tableElement = document.getElementById('table');
+var tbodyEl = document.createElement('tbody');
+tbodyEl.className = 'tbl-class';
+tableElement.appendChild(tbodyEl);
+
+//create row
+var trEl = document.createElement('tr');
+//create a series of tds and give content
+//append each td to the tr
+for(var i = 0; i < 4; i++) {
+	var tdEl = document.createElement('td');
+	tdEl.textContent = i;
+	trEl.appendChild(tdEl);
+}
+
+1.create element
+2.modify element (???needed??? test this)
+3.attach element
+4.can still modify
+
+can add more than one class to an element seperated by a space
