@@ -297,3 +297,60 @@ for(var i = 0; i < 4; i++) {
 4.can still modify
 
 can add more than one class to an element seperated by a space
+
+nov, 15
+
+start javascript by outlining with comments then outline with functions then fill functions
+
+return array;
+array.push('new'); //returns updated length
+array.pop(); //returns "popped" item
+
+you can call functions inside of objects
+
+forms
+
+inline elements
+
+<form id = "main-form">
+	<input name="txt" type="text">
+	<input name="num" type="number">
+	<input type="email">
+	<input type="password">
+	<input type="radio">
+	<input type="checkbox">
+	
+	<select name="" id="">
+		<option value="">one</option>
+		<option value="">two</option>
+	</select>
+	
+	<button type="submit">submit</button>
+</form>
+
+var formEl = document.getElementById('main-form');
+
+function onSubmit(event) {
+	event.preventDefault();
+	console.log('event object', event); //outputs Event object
+	console.log('event.target', event.target); //outputs the html of the form can go deeper with .'name value' and .value after
+	console.log('the form was submited');
+	var myFormData = {
+		txt: event.target.txt.value, //same as below
+	};
+	myFormData.txt = event.target.txt.value; //same as above. .txt knows to look at name/ is automatically referencing main
+	console.log('my form data', myFormData); //outputs the object myFormData to console
+}
+
+formEl.addEventListener('submit', onSubmit); //this string 'submit' is the type of input from the button in the form. 'submit' is automatically linked to the button. if you have more than one type="submit" it will fire them both. when the button is fired it will do the other thing like onSubmit
+                                       //^ gives code specifically. if () is present it immedietly calls and -should- give an error. let the listener call it when 'submit' happens
+other examples
+
+var sectionEl = document.getElementById('main-content');
+sectionEl.addEventListener('click', function(event) { //function will run once when the targeted element or anything inside of the element is clicked
+	console.log('click event', event.target); //prints the clicked element to console
+});
+
+
+
+
