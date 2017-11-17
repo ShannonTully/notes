@@ -351,6 +351,22 @@ sectionEl.addEventListener('click', function(event) { //function will run once w
 	console.log('click event', event.target); //prints the clicked element to console
 });
 
+nov, 16
 
+number input can use min="" max="" step=""
 
+<lable for="location">Location:</lable>
+	<input id="location">
+
+keep consistant
+
+getskeleton.com
+
+CSS is the actual worst
+
+nov, 17
+
+debugging
+
+debugger; //stops code and lets you explore everything in browser that has run so far. once the debugger is open in the browser you can select another line of code ant it will pause there
 
