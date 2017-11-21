@@ -370,3 +370,14 @@ debugging
 
 debugger; //stops code and lets you explore everything in browser that has run so far. once the debugger is open in the browser you can select another line of code ant it will pause there
 
+nov, 21
+
+(function() {
+})(); //annonymous function that is outside the global scope and self contained and runs its self immedietly after
+
+for(var i in 'array') { //quick way to do (var i = 0; i < 'array'.length; i++)
+}
+
+myChart.data.datasets[0].data[i]
+myChart.update()
+myChart.data.labels[i]
