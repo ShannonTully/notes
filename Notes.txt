@@ -381,3 +381,25 @@ for(var i in 'array') { //quick way to do (var i = 0; i < 'array'.length; i++)
 myChart.data.datasets[0].data[i]
 myChart.update()
 myChart.data.labels[i]
+
+nov, 22
+
+localStorage.setItem('newKey', 'someVal') // key/value pairs
+localStorage.getItem('newKey')
+localStorage.clear()
+
+JSON
+.stringify // make json from js
+.parse // make js from json
+
+to store
+1. stringify
+2. setItem
+
+to get
+1. getItem
+2. parse
+
+does not take functions
+will need to be reconstructed into its former object through a for loop running the constructor
+
