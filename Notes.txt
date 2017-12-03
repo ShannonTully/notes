@@ -403,3 +403,5 @@ to get
 does not take functions
 will need to be reconstructed into its former object through a for loop running the constructor
 
+nov, 24
+
