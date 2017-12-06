@@ -405,3 +405,37 @@ will need to be reconstructed into its former object through a for loop running 
 
 nov, 24
 
+--------301----------
+
+dec, 4
+
+em = 16px
+rem = fontsize of parent container
+vw/vh = viewport width/height
+
+live-server in repo then localhost:8080
+
+@media screen and (min-width: 1200px) {
+	html,body {
+		background: blue;
+	}
+}
+
+<meta name="viewport" content="width-device-width, initial-scale=1">
+
+don't use id's in css
+
+body = element selectors
+layout = positioning
+module = not positioning
+state = onHover onClicks stuff
+theme = special event stuff
+
+dec, 5
+
+git remote add upstream 'address of repo you forked from' //the repo you forked is origin
+
+array.forEach(function(ele, idx, arr) {}) 
+ele = value at spot in array
+idx = index
+arr = full array //probably wont use
