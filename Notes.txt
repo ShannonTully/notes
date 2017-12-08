@@ -443,3 +443,11 @@ arr = full array //probably wont use
 dec, 6
 
 dont use .html or .innerHtml
+
+dec, 7
+
+regex
+https://regex101.com/
+
+creating a template
+http://handlebarsjs.com/
