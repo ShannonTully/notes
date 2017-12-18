@@ -451,3 +451,31 @@ https://regex101.com/
 
 creating a template
 http://handlebarsjs.com/
+
+dec, 12
+
+npmjs.org
+
+npm init // make dir
+
+npm install // get modules
+
+node // open console
+
+node "filename" // run file
+
+const var = require('module'); // pull in module
+
+nodemon server.js // start server
+
+dec, 13
+
+create database "database"
+
+\l = list databases
+\c "database" = connect to data base
+\dt = display tables
+\? = help
+drop table "table"
+
+npm install pg // node-postgres
